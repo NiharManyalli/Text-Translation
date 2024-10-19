@@ -1,0 +1,4 @@
+from datasets import load_dataset
+
+ds = load_dataset("wmt/wmt18", "cs-en") 
+print(ds['train'][0:100])
